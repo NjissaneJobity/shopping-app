@@ -84,7 +84,7 @@ export const AppProvider = (props) => {
         return (total = total + (item.unitprice*item.quantity));
     }, 0);
 state.CartValue = totalExpenses;
-
+ 
     return (
         <AppContext.Provider
             value={{
